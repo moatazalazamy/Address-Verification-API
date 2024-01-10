@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    depends_on:
+      - model
+
+  model:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - model-data:/app
+
+volumes:
+  model-data:

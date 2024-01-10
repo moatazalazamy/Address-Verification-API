@@ -17,8 +17,8 @@ docker-compose.yml: Configuration for Docker Compose.
 ``` python pp_app.py ```
 
 ## Build Docker Image :
-```$ git clone https://github.com/your-username/address-verification-api.git```
-```$ cd address-verification-api```
+```$ git clone https://github.com/moatazalazamy/Address-Verification-API.git```
+```$ cd Address-Verification-API```
 ```$ docker-compose build```
 ```$ docker-compose up```
 

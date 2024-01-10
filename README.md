@@ -14,14 +14,13 @@ This project implements a Flask API for verifying whether an input address is in
 - **docker-compose.yml:** Configuration for Docker Compose.
 
 ## Run the app locally
-```bash
-python pp_app.py
+```$ python pp_app.py```
 
 ## Build Docker Image :
-git clone https://github.com/moatazalazamy/Address-Verification-API.git
-cd Address-Verification-API
-docker-compose build
-docker-compose up
+- git clone https://github.com/moatazalazamy/Address-Verification-API.git
+- cd Address-Verification-API
+- docker-compose build
+- docker-compose up
 
 
 ## REST API
